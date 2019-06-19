@@ -56,17 +56,17 @@
 		A65AA7FD20A585D300AF5889 /* GlobalReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalReachability.swift; sourceTree = "<group>"; };
 		A65AA80120A586B200AF5889 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		A65AA80520A58ABD00AF5889 /* CommonCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCategories.swift; sourceTree = "<group>"; };
-		A684129020A57108004BA33D /* TrulyMadlyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrulyMadlyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A684129020A57108004BA33D /* PropIQCreativeLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropIQCreativeLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A684129320A57108004BA33D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A684129520A57108004BA33D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A684129820A57108004BA33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A684129A20A57109004BA33D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A684129D20A57109004BA33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A684129F20A57109004BA33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A68412A420A57109004BA33D /* TrulyMadlyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrulyMadlyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68412A420A57109004BA33D /* PropIQCreativeLabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropIQCreativeLabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68412A820A57109004BA33D /* PropIQCreativeLabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropIQCreativeLabsTests.swift; sourceTree = "<group>"; };
 		A68412AA20A57109004BA33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A68412AF20A57109004BA33D /* TrulyMadlyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrulyMadlyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68412AF20A57109004BA33D /* PropIQCreativeLabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropIQCreativeLabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68412B320A57109004BA33D /* PropIQCreativeLabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropIQCreativeLabsUITests.swift; sourceTree = "<group>"; };
 		A68412B520A57109004BA33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6AB3D7920CA4514007068BC /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
@@ -155,9 +155,9 @@
 		A684129120A57108004BA33D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A684129020A57108004BA33D /* TrulyMadlyTest.app */,
-				A68412A420A57109004BA33D /* TrulyMadlyTestTests.xctest */,
-				A68412AF20A57109004BA33D /* TrulyMadlyTestUITests.xctest */,
+				A684129020A57108004BA33D /* PropIQCreativeLabs.app */,
+				A68412A420A57109004BA33D /* PropIQCreativeLabsTests.xctest */,
+				A68412AF20A57109004BA33D /* PropIQCreativeLabsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,9 +239,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A684128F20A57108004BA33D /* TrulyMadlyTest */ = {
+		A684128F20A57108004BA33D /* PropIQCreativeLabs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A68412B820A57109004BA33D /* Build configuration list for PBXNativeTarget "TrulyMadlyTest" */;
+			buildConfigurationList = A68412B820A57109004BA33D /* Build configuration list for PBXNativeTarget "PropIQCreativeLabs" */;
 			buildPhases = (
 				324B50DA377E04A721E84C76 /* [CP] Check Pods Manifest.lock */,
 				A684128C20A57108004BA33D /* Sources */,
@@ -253,14 +253,14 @@
 			);
 			dependencies = (
 			);
-			name = TrulyMadlyTest;
+			name = PropIQCreativeLabs;
 			productName = PropIQCreativeLabs;
-			productReference = A684129020A57108004BA33D /* TrulyMadlyTest.app */;
+			productReference = A684129020A57108004BA33D /* PropIQCreativeLabs.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A68412A320A57109004BA33D /* TrulyMadlyTestTests */ = {
+		A68412A320A57109004BA33D /* PropIQCreativeLabsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A68412BB20A57109004BA33D /* Build configuration list for PBXNativeTarget "TrulyMadlyTestTests" */;
+			buildConfigurationList = A68412BB20A57109004BA33D /* Build configuration list for PBXNativeTarget "PropIQCreativeLabsTests" */;
 			buildPhases = (
 				19E10DEA7DB04DB003CDD611 /* [CP] Check Pods Manifest.lock */,
 				A68412A020A57109004BA33D /* Sources */,
@@ -272,14 +272,14 @@
 			dependencies = (
 				A68412A620A57109004BA33D /* PBXTargetDependency */,
 			);
-			name = TrulyMadlyTestTests;
+			name = PropIQCreativeLabsTests;
 			productName = PropIQCreativeLabsTests;
-			productReference = A68412A420A57109004BA33D /* TrulyMadlyTestTests.xctest */;
+			productReference = A68412A420A57109004BA33D /* PropIQCreativeLabsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A68412AE20A57109004BA33D /* TrulyMadlyTestUITests */ = {
+		A68412AE20A57109004BA33D /* PropIQCreativeLabsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A68412BE20A57109004BA33D /* Build configuration list for PBXNativeTarget "TrulyMadlyTestUITests" */;
+			buildConfigurationList = A68412BE20A57109004BA33D /* Build configuration list for PBXNativeTarget "PropIQCreativeLabsUITests" */;
 			buildPhases = (
 				CC271DDB3DA3477BC982F274 /* [CP] Check Pods Manifest.lock */,
 				A68412AB20A57109004BA33D /* Sources */,
@@ -291,9 +291,9 @@
 			dependencies = (
 				A68412B120A57109004BA33D /* PBXTargetDependency */,
 			);
-			name = TrulyMadlyTestUITests;
+			name = PropIQCreativeLabsUITests;
 			productName = PropIQCreativeLabsUITests;
-			productReference = A68412AF20A57109004BA33D /* TrulyMadlyTestUITests.xctest */;
+			productReference = A68412AF20A57109004BA33D /* PropIQCreativeLabsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -320,7 +320,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A684128B20A57108004BA33D /* Build configuration list for PBXProject "TrulyMadlyTest" */;
+			buildConfigurationList = A684128B20A57108004BA33D /* Build configuration list for PBXProject "PropIQCreativeLabs" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -333,9 +333,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A684128F20A57108004BA33D /* TrulyMadlyTest */,
-				A68412A320A57109004BA33D /* TrulyMadlyTestTests */,
-				A68412AE20A57109004BA33D /* TrulyMadlyTestUITests */,
+				A684128F20A57108004BA33D /* PropIQCreativeLabs */,
+				A68412A320A57109004BA33D /* PropIQCreativeLabsTests */,
+				A68412AE20A57109004BA33D /* PropIQCreativeLabsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -480,12 +480,12 @@
 /* Begin PBXTargetDependency section */
 		A68412A620A57109004BA33D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A684128F20A57108004BA33D /* TrulyMadlyTest */;
+			target = A684128F20A57108004BA33D /* PropIQCreativeLabs */;
 			targetProxy = A68412A520A57109004BA33D /* PBXContainerItemProxy */;
 		};
 		A68412B120A57109004BA33D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A684128F20A57108004BA33D /* TrulyMadlyTest */;
+			target = A684128F20A57108004BA33D /* PropIQCreativeLabs */;
 			targetProxy = A68412B020A57109004BA33D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -682,7 +682,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrulyMadlyTest.app/TrulyMadlyTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PropIQCreativeLabs.app/PropIQCreativeLabs";
 			};
 			name = Debug;
 		};
@@ -703,7 +703,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrulyMadlyTest.app/TrulyMadlyTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PropIQCreativeLabs.app/PropIQCreativeLabs";
 			};
 			name = Release;
 		};
@@ -750,7 +750,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A684128B20A57108004BA33D /* Build configuration list for PBXProject "TrulyMadlyTest" */ = {
+		A684128B20A57108004BA33D /* Build configuration list for PBXProject "PropIQCreativeLabs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A68412B620A57109004BA33D /* Debug */,
@@ -759,7 +759,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A68412B820A57109004BA33D /* Build configuration list for PBXNativeTarget "TrulyMadlyTest" */ = {
+		A68412B820A57109004BA33D /* Build configuration list for PBXNativeTarget "PropIQCreativeLabs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A68412B920A57109004BA33D /* Debug */,
@@ -768,7 +768,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A68412BB20A57109004BA33D /* Build configuration list for PBXNativeTarget "TrulyMadlyTestTests" */ = {
+		A68412BB20A57109004BA33D /* Build configuration list for PBXNativeTarget "PropIQCreativeLabsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A68412BC20A57109004BA33D /* Debug */,
@@ -777,7 +777,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A68412BE20A57109004BA33D /* Build configuration list for PBXNativeTarget "TrulyMadlyTestUITests" */ = {
+		A68412BE20A57109004BA33D /* Build configuration list for PBXNativeTarget "PropIQCreativeLabsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A68412BF20A57109004BA33D /* Debug */,
