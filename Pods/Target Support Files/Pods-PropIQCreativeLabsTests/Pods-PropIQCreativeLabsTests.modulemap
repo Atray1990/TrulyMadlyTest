@@ -1,0 +1,6 @@
+framework module Pods_PropIQCreativeLabsTests {
+  umbrella header "Pods-PropIQCreativeLabsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
