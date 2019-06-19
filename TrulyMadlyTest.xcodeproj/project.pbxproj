@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2E41AE3E4690180E97706E56 /* Pods_PropIQCreativeLabsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E50A8CA784383A70E164F3 /* Pods_PropIQCreativeLabsUITests.framework */; };
 		3F185A9B22B977C700A8D807 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F185A9A22B977C700A8D807 /* CollectionViewController.swift */; };
-		3F185A9D22B97F6A00A8D807 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F185A9C22B97F6A00A8D807 /* UserCollectionViewCell.swift */; };
 		62314CE364A5075C3360A06F /* Pods_PropIQCreativeLabsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5D8CA1DEFA65A74D0AFBB0 /* Pods_PropIQCreativeLabsTests.framework */; };
 		97F3CE080C61FC51746CD96A /* Pods_PropIQCreativeLabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCB982FBF95840304728E53 /* Pods_PropIQCreativeLabs.framework */; };
 		A65AA7FC20A585BD00AF5889 /* ConnectivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65AA7FB20A585BD00AF5889 /* ConnectivityHelper.swift */; };
@@ -49,7 +48,6 @@
 		22E50A8CA784383A70E164F3 /* Pods_PropIQCreativeLabsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PropIQCreativeLabsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C6824EE3D170F792B7840B /* Pods-PropIQCreativeLabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropIQCreativeLabs.release.xcconfig"; path = "Pods/Target Support Files/Pods-PropIQCreativeLabs/Pods-PropIQCreativeLabs.release.xcconfig"; sourceTree = "<group>"; };
 		3F185A9A22B977C700A8D807 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		3F185A9C22B97F6A00A8D807 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
 		45085F13F4662AE810F7C817 /* Pods-PropIQCreativeLabsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropIQCreativeLabsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PropIQCreativeLabsUITests/Pods-PropIQCreativeLabsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F3BCD06E3EEFFAF2E014F0C /* Pods-PropIQCreativeLabsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropIQCreativeLabsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PropIQCreativeLabsTests/Pods-PropIQCreativeLabsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A332E3E6BB7F9DA7D99BABDD /* Pods-PropIQCreativeLabsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropIQCreativeLabsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PropIQCreativeLabsTests/Pods-PropIQCreativeLabsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -213,7 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				A6AB3D7920CA4514007068BC /* PlayerTableViewCell.swift */,
-				3F185A9C22B97F6A00A8D807 /* UserCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -459,7 +456,6 @@
 				A65AA80220A586B200AF5889 /* Reachability.swift in Sources */,
 				A684129420A57108004BA33D /* AppDelegate.swift in Sources */,
 				A65AA80620A58ABD00AF5889 /* CommonCategories.swift in Sources */,
-				3F185A9D22B97F6A00A8D807 /* UserCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
